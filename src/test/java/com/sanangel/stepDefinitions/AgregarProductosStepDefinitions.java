@@ -54,13 +54,12 @@ public class AgregarProductosStepDefinitions {
     }
     @Cuando("de clic en agregar carrito")
     public void deClicEnAgregarCarrito() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        inicioSteps.agregarProductoCarrito2();
     }
     @Entonces("se podra visualizar la compra de los dos productos con sus cantidades")
     public void sePodraVisualizarLaCompraDeLosDosProductosConSusCantidades() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
+
     }
 
 

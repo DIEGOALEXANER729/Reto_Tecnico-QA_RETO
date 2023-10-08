@@ -9,10 +9,12 @@ import org.openqa.selenium.By;
 public class InicioPage extends PageObject {
 
     By  btnProducto1 = By.xpath("//*[@id=\"destacados-tab\"]/div[2]/div/ul/li[2]");
-    By txtUnidad = By.xpath("//*[@id=\"quantity_651d9adc78e2a\"]");
+    By txtUnidad = By.xpath("//*[@class=\"input-text qty text\"]");
 
     By btnAgregarCarrito = By.xpath("//*[@id=\"product-9543\"]/div[2]/form/button");
 
+
+    By btnAgregarCarrito2 = By.xpath("//*[@class=\"single_add_to_cart_button button alt\"]");
     By btnInicioPagina = By.xpath("//*[@id=\"sticky-wrapper\"]/header/div[2]/div");
 
     By btnProducto2 = By.xpath("//*[@id=\"destacados-tab\"]/div[2]/div/ul/li[3]");
@@ -42,5 +44,9 @@ public class InicioPage extends PageObject {
 
     public By getTxtProducto2() {
         return txtProducto2;
+    }
+
+    public By getBtnAgregarCarrito2() {
+        return btnAgregarCarrito2;
     }
 }

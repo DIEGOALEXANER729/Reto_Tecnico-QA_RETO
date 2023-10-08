@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sanangel.runners.Runner" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-04T17:21:10" hostname="DIEGOALEXANER" time="43.398">
+<testsuite name="com.sanangel.runners.Runner" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-08T03:07:15" hostname="DIEGOALEXANER" time="60.419">
   <properties/>
-  <testcase name="Agregar 2 productos al carro de compras" classname="com.sanangel.runners.Runner" time="43.398">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;quantity_651d9adc78e2a&quot;]&quot;}&#10;  (Session info: chrome=117.0.5938.132)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [36dd2533702a92eb10a10ccc52880f67, findElement {using=xpath, value=//*[@id=&quot;quantity_651d9adc78e2a&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\DIEGOA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63683/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 36dd2533702a92eb10a10ccc52880f67" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;quantity_651d9adc78e2a&quot;]&quot;}
-  (Session info: chrome=117.0.5938.132)
+  <testcase name="Agregar 2 productos al carro de compras" classname="com.sanangel.runners.Runner" time="60.419">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#quantity_651da14e34cfe&quot;}&#10;  (Session info: chrome=117.0.5938.150)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ff5cf81c26ea2c64b2ba6faf9fd8e456, findElement {using=id, value=quantity_651da14e34cfe}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\DIEGOA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58965/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ff5cf81c26ea2c64b2ba6faf9fd8e456" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#quantity_651da14e34cfe&quot;}
+  (Session info: chrome=117.0.5938.150)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [36dd2533702a92eb10a10ccc52880f67, findElement {using=xpath, value=//*[@id=&quot;quantity_651d9adc78e2a&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\DIEGOA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63683/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 36dd2533702a92eb10a10ccc52880f67
+Command: [ff5cf81c26ea2c64b2ba6faf9fd8e456, findElement {using=id, value=quantity_651da14e34cfe}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\DIEGOA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58965/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff5cf81c26ea2c64b2ba6faf9fd8e456
 	at java.base@11.0.19/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base@11.0.19/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base@11.0.19/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -23,12 +23,12 @@ Session ID: 36dd2533702a92eb10a10ccc52880f67
 	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
 	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 	at app//net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:239)
-	at app//com.sanangel.steps.InicioSteps.limpiarCampoUnidades(InicioSteps.java:29)
-	at app//com.sanangel.steps.InicioSteps$ByteBuddy$GZRlBiJD.limpiarCampoUnidades$accessor$KH9Z6KSe(Unknown Source)
+	at app//com.sanangel.steps.InicioSteps.limpiarCampoUnidadesProducto2(InicioSteps.java:75)
+	at app//com.sanangel.steps.InicioSteps$ByteBuddy$WPbr3e8y.limpiarCampoUnidadesProducto2$accessor$D6gsUKeX(Unknown Source)
 	at java.base@11.0.19/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.19/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.19/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -40,19 +40,19 @@ Session ID: 36dd2533702a92eb10a10ccc52880f67
 	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
 	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
 	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at app//com.sanangel.steps.InicioSteps$ByteBuddy$GZRlBiJD.limpiarCampoUnidades(Unknown Source)
-	at app//com.sanangel.stepDefinitions.AgregarProductosStepDefinitions.agregueDosUnidades(AgregarProductosStepDefinitions.java:28)
-	at ✽.agregue  dos unidades(file:///C:/Users/Diego%20Alexander/OneDrive/Documentos/Reto_Tecnico-QA_RETO/src/test/resources/features/AgregarProductos.feature:11)
+	at app//com.sanangel.steps.InicioSteps$ByteBuddy$WPbr3e8y.limpiarCampoUnidadesProducto2(Unknown Source)
+	at app//com.sanangel.stepDefinitions.AgregarProductosStepDefinitions.agregueCincoUnidades(AgregarProductosStepDefinitions.java:50)
+	at ✽.agregue cinco unidades(file:///C:/Users/Diego%20Alexander/OneDrive/Documentos/Reto_Tecnico-QA_RETO/src/test/resources/features/AgregarProductos.feature:14)
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14}) on port 37783
+  <system-err><![CDATA[Starting ChromeDriver 117.0.5938.149 (e3344ddefa12e60436fa28c81cf207c1afb4d0a9-refs/branch-heads/5938@{#1539}) on port 30686
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-oct. 04, 2023 12:21:17 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+oct. 07, 2023 10:07:20 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 ADVERTENCIA: Unable to find CDP implementation matching 117
-oct. 04, 2023 12:21:17 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+oct. 07, 2023 10:07:20 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
 ?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m

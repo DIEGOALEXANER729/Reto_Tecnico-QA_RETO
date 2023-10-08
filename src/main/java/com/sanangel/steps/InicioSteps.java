@@ -89,7 +89,14 @@ public class InicioSteps {
     public void ingresarProductoUnoUnidadProducto2(){
 
         EsperaImplicita.esperaImplicita(2);
-        inicio.getDriver().findElement(inicio.getTxtProducto2()).sendKeys("5");
+        inicio.getDriver().findElement(inicio.getTxtUnidad()).sendKeys("5");
+
+    }
+
+    @Step("Clic en añadir al carrito")
+    public void agregarProductoCarrito2(){
+
+        inicio.getDriver().findElement(inicio.getBtnAgregarCarrito2()).click();
 
     }
 
